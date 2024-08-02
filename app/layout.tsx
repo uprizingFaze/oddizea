@@ -4,7 +4,6 @@ import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import { Toaster } from "@/components/ui/sonner";
 import { Footer } from "@/components/footer/footer";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ThemeProvider } from "@/components/theme-provider";
 
 const font = GeistSans;
@@ -31,7 +30,6 @@ export default function RootLayout({
           <Footer />
           <Toaster richColors />
         </ThemeProvider>
-        <SpeedInsights />
       </body>
     </html>
   );
