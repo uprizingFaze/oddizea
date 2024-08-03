@@ -24,12 +24,12 @@ const Navigation = () => {
           <NavigationMenuDemo />
         </div>
         <div className="ml-auto flex items-center">
-          <Link className="" href="/">
+          <Link className="" href="/https://x.com/uprizingFaze">
             <Button size="sm" variant="ghost">
               <TwitterLogoIcon className="h-6 w-6" />
             </Button>
           </Link>
-          <Link className="mx-2" href="https://github.com/uprizingFaze/odissea">
+          <Link className="mx-2" href="https://github.com/uprizingFaze/oddizea">
             <Button size="sm" variant="ghost">
               <GitHubLogoIcon className="h-6 w-6" />
             </Button>
